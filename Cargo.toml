@@ -1,0 +1,14 @@
+[package]
+name = "rustnapshotter"
+version = "0.1.0"
+authors = ["Dan Peebles <dev.peebles.dan@dev.bwater.com>"]
+
+[dependencies]
+url = "*"
+json = "*"
+futures = "*"
+tokio-core = "*"
+rusoto_core = "0.36.0"
+rusoto_sts = "0.36.0"
+rusoto_iam = "0.36.0"
+rusoto_s3 = "0.36.0"
